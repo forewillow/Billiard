@@ -17,10 +17,11 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=1200
+window/size/viewport_width=1400
 window/size/viewport_height=778
+window/default_linear_damp=0.0
 
 [physics]
 
 2d/default_gravity_vector=Vector2(0, 0)
-2d/default_linear_damp=1.1
+2d/default_linear_damp=0.8

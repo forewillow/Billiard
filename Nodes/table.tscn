@@ -40,30 +40,30 @@ position = Vector2(1469, 468)
 rotation = 3.14159
 polygon = PackedVector2Array(324, -114, 345, -93, 346, 351, 324, 375, 54, 373, 49, -112)
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Pockets" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pockets"]
 position = Vector2(-72, -2.25)
 shape = SubResource("RectangleShape2D_em5i5")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Pockets"]
 position = Vector2(1271, -4)
 shape = SubResource("RectangleShape2D_em5i5")
 
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Pockets"]
 position = Vector2(1272, 680)
 shape = SubResource("RectangleShape2D_em5i5")
 
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Pockets"]
 position = Vector2(-77, 680)
 shape = SubResource("RectangleShape2D_em5i5")
 
-[node name="CollisionShape2D5" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Pockets"]
 modulate = Color(0.686275, 1, 0.647059, 1)
 position = Vector2(594, 690)
 shape = SubResource("RectangleShape2D_kceex")
 
-[node name="CollisionShape2D6" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Pockets"]
 modulate = Color(0.686275, 1, 0.647059, 1)
 position = Vector2(593, -14)
 shape = SubResource("RectangleShape2D_kceex")

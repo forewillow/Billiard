@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://dec2myrro1crq"]
+
+[node name="PlayerUI" type="Node"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 1200.0
+offset_right = 1500.0
+offset_bottom = 778.0
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 47.0
+offset_right = 322.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 54
+text = "PLAYER A"
+
+[node name="Label2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 198.0
+offset_right = 331.0
+offset_bottom = 289.0
+theme_override_font_sizes/font_size = 40
+text = "score"

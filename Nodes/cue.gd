@@ -35,7 +35,7 @@ func _process(delta: float) -> void:
 			power_dir = 1
 		
 		power += 0.1 * power_dir
-		print(power)
+		#print(power)
 	else :
 		if power>0:
 			
