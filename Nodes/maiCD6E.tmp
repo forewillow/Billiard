@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://cst6l8prs4bpa"]
+
+[ext_resource type="Script" path="res://Nodes/main.gd" id="1_0roj0"]
+[ext_resource type="PackedScene" uid="uid://68bsyoygri26" path="res://Nodes/table.tscn" id="1_kxvqw"]
+[ext_resource type="PackedScene" uid="uid://coj7stnu85ji6" path="res://Nodes/ball.tscn" id="2_jq7lc"]
+[ext_resource type="PackedScene" uid="uid://cjsajiioyfwa7" path="res://Nodes/cue.tscn" id="4_of7fa"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_0roj0")
+ball_scene = ExtResource("2_jq7lc")
+
+[node name="Table" parent="." instance=ExtResource("1_kxvqw")]
+
+[node name="Cue" parent="." instance=ExtResource("4_of7fa")]
+
+[connection signal="shoot" from="Cue" to="." method="_on_cue_shoot"]
